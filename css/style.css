@@ -1,0 +1,142 @@
+/* CSS Document */
+
+/*全局reset*/
+body{
+	font-family:arial;
+}
+body,h1,h2,h3,dl,dt,dd,ul,ol,li,form,input,textarea,th,td,img,button{
+	margin:0;
+	padding:0;
+	border:none;
+}
+dl,dt,dd,ol,ul,li{
+	list-style:none;
+}
+
+/*顶部top*/
+.top{
+	height:25px;
+	width:100%;
+	margin-top:20px;
+}
+.top ul{
+	float:right;
+}
+.top ul li{
+	block:inline;
+	float:left;
+	margin-right:20px;
+	line-height:25px;
+}
+.top ul li a{
+	color:#333333;
+	font-weight:bold;
+	font-family:arial;
+	font-size:13px;
+}
+.top ul li a.sign{
+	font-weight:normal;
+}
+.top ul li a.more{
+	color:#fff;
+	text-decoration:none;
+	background:#3388ff;
+	padding:5px 4px;
+	margin-left:4px;
+	margin-right:13px;
+}
+.top ul li a:hover{
+	color:#0000cc;
+}
+
+/*main主体*/
+.main{
+	width:692px;
+	height:194px;
+	margin:0 auto 181px;
+}
+.main .logo{
+	width:270px;
+	height:129px;
+	margin:0 auto;
+}
+.main .so{
+	margin-top:27px;
+	position:relative;
+}
+.main .so form{
+	width:566px;
+	height:37px;
+	float:left;
+	border-top:1px solid #b8b8b8;
+	border-left:1px solid #b8b8b8;
+	border-bottom:1px solid #cccccc;
+}
+.main .so form:hover{
+	border-top:1px solid #999999;
+	border-left:1px solid #999999;
+	border-bottom:1px solid #b3b3b3;
+}
+.main .so img{
+	position:absolute;
+	left:536px;
+	top:11px;
+}
+.main .so span{
+	color:#fff;
+	float:left;
+	display:block;
+	width:87px;
+	height:38px;
+	font-size:15px;
+	font-family:arial;
+	line-height:38px;
+	padding-left:18px;
+	background:#3385ff;
+}
+.main .so span:hover{
+	background:#317ef3;
+}
+
+/*底部footer*/
+.footer .phone{
+	width:60px;
+	height:60px;
+	margin:0 auto;
+	text-align:center;
+}
+.footer .phone span{
+	font-size:12px;
+	color:#666666;
+	font-weight:900;
+
+}
+.footer .about{
+	text-align:center;
+	margin-top:50px;
+}
+.footer .about p{
+	font-size:12px;
+}
+.footer .about p.about_bd{
+	color:#00c;
+	
+}
+.footer .about p.about_bd a{
+	margin:0 10px;
+}
+.footer .about p.about_2015{
+	color:#666;
+	position:relative;
+}
+.footer .about p.about_2015 a{
+	color:#666;
+}
+.footer .about p.about_2015 .i_icon{
+	width:14px;
+	height:17px;
+	display:inline-block;
+	position:relative;
+	top:3px;
+	background:url(../images/icons.png) -600px -96px no-repeat;
+}
